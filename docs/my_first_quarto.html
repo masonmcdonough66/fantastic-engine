@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>about me – Your_Name - Data Science Portfolio</title>
+<title>My First Quarto Document – Your_Name - Data Science Portfolio</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -80,7 +80,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-sidebar docked nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -280,7 +280,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Story Telling</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./ml.html" aria-current="page"> 
+    <a class="nav-link" href="./ml.html"> 
 <span class="menu-text">Machine Learning</span></a>
   </li>  
   <li class="nav-item">
@@ -298,65 +298,24 @@ ul.task-list li input[type="checkbox"] {
 </div>
       </div> <!-- /container-fluid -->
     </nav>
-  <nav class="quarto-secondary-nav">
-    <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-        <i class="bi bi-layout-text-sidebar-reverse"></i>
-      </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./ml.html">Machine Learning</a></li></ol></nav>
-        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-        </a>
-    </div>
-  </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
-    <div class="sidebar-menu-container"> 
-    <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./ml.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Machine Learning</span></a>
-  </div>
-</li>
-        <li class="px-0"><hr class="sidebar-divider hi "></li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./Machine_Learning/project1.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Project 1</span></a>
-  </div>
-</li>
-        <li class="px-0"><hr class="sidebar-divider hi "></li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./Machine_Learning/project2.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Project 2</span></a>
-  </div>
-</li>
-        <li class="px-0"><hr class="sidebar-divider hi "></li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./Machine_Learning/project3.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Project 3</span></a>
-  </div>
-</li>
-        <li class="px-0"><hr class="sidebar-divider hi "></li>
-    </ul>
-    </div>
-</nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#title-1-header" id="toc-title-1-header" class="nav-link active" data-scroll-target="#title-1-header">Title 1 Header</a>
+  <li><a href="#yaml-explanation" id="toc-yaml-explanation" class="nav-link active" data-scroll-target="#yaml-explanation">YAML Explanation</a></li>
+  <li><a href="#article-reviews" id="toc-article-reviews" class="nav-link" data-scroll-target="#article-reviews">Article Reviews</a>
   <ul class="collapse">
-  <li><a href="#title-2-header" id="toc-title-2-header" class="nav-link" data-scroll-target="#title-2-header">Title 2 Header</a></li>
+  <li><a href="#the-pudding-visualizing-songs" id="toc-the-pudding-visualizing-songs" class="nav-link" data-scroll-target="#the-pudding-visualizing-songs">1. The Pudding: Visualizing Songs</a></li>
+  <li><a href="#fivethirtyeight-data-politics-analysis" id="toc-fivethirtyeight-data-politics-analysis" class="nav-link" data-scroll-target="#fivethirtyeight-data-politics-analysis">2. FiveThirtyEight: Data &amp; Politics Analysis</a></li>
+  <li><a href="#our-world-in-data-global-metrics" id="toc-our-world-in-data-global-metrics" class="nav-link" data-scroll-target="#our-world-in-data-global-metrics">3. Our World in Data: Global Metrics</a></li>
   </ul></li>
+  <li><a href="#r-code-example" id="toc-r-code-example" class="nav-link" data-scroll-target="#r-code-example">R Code Example</a></li>
   </ul>
 </nav>
     </div>
@@ -366,8 +325,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">about me</h1>
-<p class="subtitle lead">my data science portfolio</p>
+<h1 class="title">My First Quarto Document</h1>
 </div>
 
 
@@ -384,14 +342,64 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="title-1-header" class="level1">
-<h1>Title 1 Header</h1>
-<section id="title-2-header" class="level2">
-<h2 class="anchored" data-anchor-id="title-2-header">Title 2 Header</h2>
-<p><a href="https://quarto.org/docs/authoring/markdown-basics.html#links-images">MarkDown Basics</a></p>
-
-
+<section id="yaml-explanation" class="level2">
+<h2 class="anchored" data-anchor-id="yaml-explanation">YAML Explanation</h2>
+<ul>
+<li><strong><code>title</code></strong>: Sets the main header title displayed at the top of the rendered webpage.</li>
+<li><strong><code>format: html</code></strong>: Specifies that Quarto should compile this <code>.qmd</code> source file into an HTML web page.</li>
+<li><strong><code>code-fold: true</code></strong>: Automatically collapses R/Python code blocks into a clickable “Code” dropdown button on the webpage so the document remains clean and easy to read.</li>
+<li><strong><code>editor: visual</code></strong>: Tells RStudio to open this document using the visual rich-text editor by default instead of plain text source mode.</li>
+</ul>
+<hr>
 </section>
+<section id="article-reviews" class="level2">
+<h2 class="anchored" data-anchor-id="article-reviews">Article Reviews</h2>
+<section id="the-pudding-visualizing-songs" class="level3">
+<h3 class="anchored" data-anchor-id="the-pudding-visualizing-songs">1. <a href="https://pudding.cool/">The Pudding: Visualizing Songs</a></h3>
+<p>This article effectively uses interactive elements and smooth animations to guide the reader through complex data trends.</p>
+<ul>
+<li><strong>What is unique or good:</strong> The visual hierarchy is exceptionally clear, and the interactive tooltips allow readers to explore individual data points without cluttering the primary graphic. The use of color contrast draws immediate focus to the key narrative points.</li>
+<li><strong>What could be better:</strong> On smaller mobile screens, the interactive elements become slightly difficult to tap accurately, and the chart axes could benefit from larger font sizes to improve general readability.</li>
+</ul>
+<hr>
+</section>
+<section id="fivethirtyeight-data-politics-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="fivethirtyeight-data-politics-analysis">2. <a href="https://fivethirtyeight.com/">FiveThirtyEight: Data &amp; Politics Analysis</a></h3>
+<p>This piece uses clean, minimalist charts to present statistical probabilities and trend models clearly.</p>
+<ul>
+<li><strong>What is unique or good:</strong> The visualization excels at communicating uncertainty through shaded confidence intervals rather than just showing flat average lines. The legends are direct and easy to interpret at a glance.</li>
+<li><strong>What could be better:</strong> The plot attempts to display too many categorical variables on a single graph, which creates visual noise and makes it difficult to trace a single line across the entire timeline.</li>
+</ul>
+<hr>
+</section>
+<section id="our-world-in-data-global-metrics" class="level3">
+<h3 class="anchored" data-anchor-id="our-world-in-data-global-metrics">3. <a href="https://ourworldindata.org/">Our World in Data: Global Metrics</a></h3>
+<p>This article utilizes detailed geographic maps and time-series line graphs to illustrate global development metrics across multiple decades.</p>
+<ul>
+<li><strong>What is unique or good:</strong> The chart includes a seamless time-slider feature that lets the user animate changes over time, making long-term demographic shifts intuitive to understand.</li>
+<li><strong>What could be better:</strong> The initial color palette uses shades of blue and green that are somewhat difficult to distinguish for colorblind users, so an alternative high-contrast theme would improve accessibility.</li>
+</ul>
+<hr>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Quarto Formatting Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Testing out Quarto callout blocks! You can switch between <strong>Visual</strong> mode and <strong>Source</strong> mode at the top left of the RStudio editor pane to see how this block translates to standard Markdown syntax.</p>
+</div>
+</div>
+</section>
+</section>
+<section id="r-code-example" class="level2">
+<h2 class="anchored" data-anchor-id="r-code-example">R Code Example</h2>
+<p>```{r} plot(1:20) —</p>
+
+
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->

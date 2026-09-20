@@ -33,9 +33,9 @@
   {
     "objectID": "resume.html",
     "href": "resume.html",
-    "title": "Isaac Newtons’s CV",
+    "title": "Mason McDonough",
     "section": "",
-    "text": "Physicist, Mathematician, Cambridge professor.\n\nisaac@applesdofall.org | My wikipedia page\n\n\n\nStanding on the shoulders of giants\n\n\nLaws of motion, gravitation, minting coins, disliking Robert Hooke\n\n\n\nCooling, power series, optics, alchemy, planetary motions, apples.\n\n\n\n\n1654-1660 The King’s School, Grantham.\nJune 1661 - now Trinity College, Cambridge\n\nSizar\n\n1667 - death Trinity College, Cambridge\n\nFellow\n\n\n\n\n2012 President, Royal Society, London, UK\nAssociate, French Academy of Science, Paris, France\n\n\n\n\n\n\n1669 Newton Sir I, De analysi per æquationes numero terminorum infinitas.\n1669 Lectiones opticæ.\netc. etc. etc.\n\n\n\n2012 Infinitesimal calculus for solutions to physics problems, SMBC patent 001\n\n\n\n\n1600 Royal Mint, London\n\nWarden\nMinted coins\n\n1600 Lucasian professor of Mathematics, Cambridge University"
+    "text": "Mason McDonough Rexburg, ID 83440 masonmcdonough23@gmail.com +1 208 807 7731 Authorized to work in the US for any employer Work Experience\nLifetime Product Installer DJ Assembly-Hillsboro, OR July 2025 to Present We installed Lifetime products at peoples homes around the Treasure Valley mostly being sheds and playgrounds that we assembled. Data Entry Jeff McDonough CPA-Meridian, ID January 2025 to April 2025 I did data entry for an accounting firm during tax season. I learned the basics of accounting and got a grasp on money and taxes. Full Time Missionary (Volunteer) The Church of Jesus Christ of Latter-day Saints-Iloilo, Philippines August 2022 to August 2024 I served a full time mission for The Church of Jesus Christ of Latter-Day Saints. I helped bring people to the Church and helped them in all sorts of ways. I learned a new language in the Philippines and learned their culture. I served others full time in order to help them voluntarily.\nEducation\nAccounting (Some College) BYU-I-Rexburg, ID September 2024 to Present High school diploma or GED Skills\nSome of my skills I have obtained are, Outdoor work, Heavy lifting, Excel data analysis, Microsoft Excel, Food safety management, Accounts receivable, Accounting and finance experience, Hand tools, Janitorial experience, Food safety, Computer skills, Accounting software, Accounts payable, Food service (1 year), and Bookkeeping\n\n\n\n Back to top"
   },
   {
     "objectID": "resume.html#currently",
@@ -363,5 +363,33 @@
       "Story Telling",
       "Project 3"
     ]
+  },
+  {
+    "objectID": "my_first_quarto.html",
+    "href": "my_first_quarto.html",
+    "title": "My First Quarto Document",
+    "section": "",
+    "text": "title: Sets the main header title displayed at the top of the rendered webpage.\nformat: html: Specifies that Quarto should compile this .qmd source file into an HTML web page.\ncode-fold: true: Automatically collapses R/Python code blocks into a clickable “Code” dropdown button on the webpage so the document remains clean and easy to read.\neditor: visual: Tells RStudio to open this document using the visual rich-text editor by default instead of plain text source mode."
+  },
+  {
+    "objectID": "my_first_quarto.html#yaml-explanation",
+    "href": "my_first_quarto.html#yaml-explanation",
+    "title": "My First Quarto Document",
+    "section": "",
+    "text": "title: Sets the main header title displayed at the top of the rendered webpage.\nformat: html: Specifies that Quarto should compile this .qmd source file into an HTML web page.\ncode-fold: true: Automatically collapses R/Python code blocks into a clickable “Code” dropdown button on the webpage so the document remains clean and easy to read.\neditor: visual: Tells RStudio to open this document using the visual rich-text editor by default instead of plain text source mode."
+  },
+  {
+    "objectID": "my_first_quarto.html#article-reviews",
+    "href": "my_first_quarto.html#article-reviews",
+    "title": "My First Quarto Document",
+    "section": "Article Reviews",
+    "text": "Article Reviews\n\n1. The Pudding: Visualizing Songs\nThis article effectively uses interactive elements and smooth animations to guide the reader through complex data trends.\n\nWhat is unique or good: The visual hierarchy is exceptionally clear, and the interactive tooltips allow readers to explore individual data points without cluttering the primary graphic. The use of color contrast draws immediate focus to the key narrative points.\nWhat could be better: On smaller mobile screens, the interactive elements become slightly difficult to tap accurately, and the chart axes could benefit from larger font sizes to improve general readability.\n\n\n\n\n2. FiveThirtyEight: Data & Politics Analysis\nThis piece uses clean, minimalist charts to present statistical probabilities and trend models clearly.\n\nWhat is unique or good: The visualization excels at communicating uncertainty through shaded confidence intervals rather than just showing flat average lines. The legends are direct and easy to interpret at a glance.\nWhat could be better: The plot attempts to display too many categorical variables on a single graph, which creates visual noise and makes it difficult to trace a single line across the entire timeline.\n\n\n\n\n3. Our World in Data: Global Metrics\nThis article utilizes detailed geographic maps and time-series line graphs to illustrate global development metrics across multiple decades.\n\nWhat is unique or good: The chart includes a seamless time-slider feature that lets the user animate changes over time, making long-term demographic shifts intuitive to understand.\nWhat could be better: The initial color palette uses shades of blue and green that are somewhat difficult to distinguish for colorblind users, so an alternative high-contrast theme would improve accessibility.\n\n\n\n\n\n\n\n\nNoteQuarto Formatting Note\n\n\n\nTesting out Quarto callout blocks! You can switch between Visual mode and Source mode at the top left of the RStudio editor pane to see how this block translates to standard Markdown syntax."
+  },
+  {
+    "objectID": "my_first_quarto.html#r-code-example",
+    "href": "my_first_quarto.html#r-code-example",
+    "title": "My First Quarto Document",
+    "section": "R Code Example",
+    "text": "R Code Example\n```{r} plot(1:20) —"
   }
 ]
