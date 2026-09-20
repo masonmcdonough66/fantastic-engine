@@ -1,0 +1,55 @@
+---
+title: "My First Quarto Document"
+format:
+  html:
+    code-fold: true
+editor: visual
+---
+
+## YAML Explanation
+
+- **`title`**: Sets the main header title displayed at the top of the rendered webpage.
+- **`format: html`**: Specifies that Quarto should compile this `.qmd` source file into an HTML web page.
+- **`code-fold: true`**: Automatically collapses R/Python code blocks into a clickable "Code" dropdown button on the webpage so the document remains clean and easy to read.
+- **`editor: visual`**: Tells RStudio to open this document using the visual rich-text editor by default instead of plain text source mode.
+
+------------------------------------------------------------------------
+
+## Article Reviews
+
+### 1. [The Pudding: Visualizing Songs](https://pudding.cool/)
+
+This article effectively uses interactive elements and smooth animations to guide the reader through complex data trends.
+
+- **What is unique or good:** The visual hierarchy is exceptionally clear, and the interactive tooltips allow readers to explore individual data points without cluttering the primary graphic. The use of color contrast draws immediate focus to the key narrative points.
+- **What could be better:** On smaller mobile screens, the interactive elements become slightly difficult to tap accurately, and the chart axes could benefit from larger font sizes to improve general readability.
+
+------------------------------------------------------------------------
+
+### 2. [FiveThirtyEight: Data & Politics Analysis](https://fivethirtyeight.com/)
+
+This piece uses clean, minimalist charts to present statistical probabilities and trend models clearly.
+
+- **What is unique or good:** The visualization excels at communicating uncertainty through shaded confidence intervals rather than just showing flat average lines. The legends are direct and easy to interpret at a glance.
+- **What could be better:** The plot attempts to display too many categorical variables on a single graph, which creates visual noise and makes it difficult to trace a single line across the entire timeline.
+
+------------------------------------------------------------------------
+
+### 3. [Our World in Data: Global Metrics](https://ourworldindata.org/)
+
+This article utilizes detailed geographic maps and time-series line graphs to illustrate global development metrics across multiple decades.
+
+- **What is unique or good:** The chart includes a seamless time-slider feature that lets the user animate changes over time, making long-term demographic shifts intuitive to understand.
+- **What could be better:** The initial color palette uses shades of blue and green that are somewhat difficult to distinguish for colorblind users, so an alternative high-contrast theme would improve accessibility.
+
+------------------------------------------------------------------------
+
+::: callout-note
+### Quarto Formatting Note
+
+Testing out Quarto callout blocks! You can switch between **Visual** mode and **Source** mode at the top left of the RStudio editor pane to see how this block translates to standard Markdown syntax.
+:::
+
+## R Code Example
+
+\`\`\`{r} plot(1:20) ---
